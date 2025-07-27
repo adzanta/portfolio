@@ -2,13 +2,11 @@
   "name": "flexfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adzanta.github.io/portofolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
